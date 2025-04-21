@@ -46,26 +46,26 @@ Columns: 16
 
 # Basic statistics (mean, min, max) for numeric columns:
 
-| Feature	    | Mean	  | Min	  | Max
-| age		      | 49.58	  | 32	  | 70
-| cigsPerDay	| 9.00	  | 0	    | 70
-| totChol	    | 236.72	| 107	  | 696
-| sysBP		    | 132.35	| 83.5	| 295
-| diaBP		    | 82.89	  | 48	  | 142.5
-| BMI		      | 25.80	  | 15.54	| 56.8
-| heartRate	  | 75.88	  | 44	  | 143
-| glucose	    | 81.97	  | 40	  | 394
+| Feature	    | Mean	  | Min	  | Max |
+| age		      | 49.58	  | 32	  | 70 |
+| cigsPerDay	| 9.00	  | 0	    | 70 |
+| totChol	    | 236.72	| 107	  | 696 |
+| sysBP		    | 132.35	| 83.5	| 295 |
+| diaBP		    | 82.89	  | 48	  | 142.5 |
+| BMI		      | 25.80	  | 15.54	| 56.8 |
+| heartRate	  | 75.88	  | 44	  | 143 |
+| glucose	    | 81.97	  | 40	  | 394 |
 
 # There are no duplicates:
 Number of duplicate rows: 0
 
 # The numbers of categories of object-type columns
 
-| Column		      | Unique Categories
-| Gender	        | 2 		(Male, Female)
-| education		    | 4 (graduate, postgraduate, etc.)
-| prevalentStroke	| 2 (yes, no)
-| Heart_ stroke		| 2 (yes, No)
+| Column		      | Unique Categories |
+| Gender	        | 2 		(Male, Female) |
+| education		    | 4 (graduate, postgraduate, etc.) |
+| prevalentStroke	| 2 (yes, no) |
+| Heart_ stroke		| 2 (yes, No) |
 
 # 3. Data Cleaning.
 
