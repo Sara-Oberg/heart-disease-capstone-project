@@ -34,14 +34,21 @@ Columns: 16
 
 
 # These columns contain missing values:
-| Column	    | Missing Values
-| education	  | 105
-| cigsPerDay	| 29
-| BPMeds	    | 53
-| totChol	    | 50
-| BMI		      | 19
-| heartRate	  | 1
-| glucose	    | 388
+| Column	    | Missing Values |
+| ---------   | -------------- |
+| education	  | 105 |
+| ---------   | -------------- |
+| cigsPerDay	| 29 |
+| ---------   | -------------- |
+| BPMeds	    | 53 |
+| ---------   | -------------- |
+| totChol	    | 50 |
+| ---------   | -------------- |
+| BMI		      | 19 |
+| ---------   | -------------- |
+| heartRate	  | 1 |
+| ---------   | -------------- |
+| glucose	    | 388 |
 
 # Basic statistics (mean, min, max) for numeric columns:
 
