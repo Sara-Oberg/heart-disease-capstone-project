@@ -22,7 +22,7 @@ I aim to create a reliable tool that can predict who might develop heart disease
 Heart disease is a major cause of death around the world. If we can predict heart disease early, we can help people make lifestyle changes or get medical treatment sooner. Without answering this question, people might not know they are at risk, missing the chance to prevent serious health issues. 
 A simple predictive tool can help doctors and patients make better decisions, saving lives and reducing healthcare costs by allowing earlier treatment and better personal care plans.
 
-# The insights based on the dataset heart_disease.csv
+# 2. The insights based on the dataset heart_disease.csv
 
 # The numbers of rows and columns:
 Rows: 4238
@@ -65,6 +65,15 @@ Gender	        2 		(Male, Female)
 education		    4 (graduate, postgraduate, etc.)
 prevalentStroke	2 (yes, no)
 Heart_ stroke		2 (yes, No)
+
+# 3. Data Cleaning.
+
+In this step, I did:
+- Standardizes column names
+- Fills missing numeric values with median (robust to outliers)
+- Fills missing categorical values with the most common category
+- Converts all string categories to lowercase for consistency
+
 
 
 
