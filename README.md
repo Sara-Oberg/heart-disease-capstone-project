@@ -47,6 +47,7 @@ Columns: 16
 # Basic statistics (mean, min, max) for numeric columns:
 
 | Feature	    | Mean	  | Min	  | Max |
+| ---------   | ------- | ------|---- |
 | age		      | 49.58	  | 32	  | 70 |
 | cigsPerDay	| 9.00	  | 0	    | 70 |
 | totChol	    | 236.72	| 107	  | 696 |
