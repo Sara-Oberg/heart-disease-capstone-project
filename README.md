@@ -6,7 +6,7 @@ A machine learning project to explore and predict heart disease using patient he
 Can we predict heart disease in people regarding their basic personal and health information?
 
 # Expected Data Source:
-The data will come from a dataset called "Heart Disease," which includes basic personal and health information, provided as a CSV file.
+The data will come from a dataset "https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset" called heart_disease.csv, which includes basic personal and health information, provided as a CSV file.
 
 # Techniques:
 
