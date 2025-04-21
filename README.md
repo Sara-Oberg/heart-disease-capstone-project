@@ -63,6 +63,7 @@ Number of duplicate rows: 0
 # The numbers of categories of object-type columns
 
 | Column		      | Unique Categories |
+| -------------   | ----------------- |
 | Gender	        | 2 		(Male, Female) |
 | education		    | 4 (graduate, postgraduate, etc.) |
 | prevalentStroke	| 2 (yes, no) |
