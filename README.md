@@ -28,7 +28,6 @@ A simple predictive tool can help doctors and patients make better decisions, sa
 Rows: 4238
 Columns: 16
 ## Dataset Information
-- **Name:** Heart Disease and Stroke Dataset
 - **Rows:** 4,238
 - **Columns:** 16
 - **Source:** (https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset?select=heart_disease.csv)
@@ -83,7 +82,7 @@ In this step, I did:
 - Standardizes column names
 - Fills missing numeric values with median (robust to outliers)
 - Fills missing categorical values with the most common category
-- Converts all string categories to lowercase for consistency
+- Converts all string categories to lowercase for consistency to avoid for example 'No' vs 'no' issues
 
 # 4. Exploratory Data Analysis (EDA)
 - **Age:** Majority of participants are between 40–60 years old.
