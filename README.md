@@ -1,5 +1,5 @@
 # Heart-Disease Capstone Project
-A machine learning project to explore and predict heart disease using patient health records. This project includes exploratory data analysis (EDA), data cleaning, feature engineering, and a baseline classification model to identify individuals at risk of heart disease.
+This project aims to explore and model health-related risk factors to predict whether an individual is likely to experience heart disease or stroke. The model is developed as part of a machine learning capstone project at UC Berkeley Haas School of Business, using real-world medical data.
 
 
 # Research Question:
@@ -27,6 +27,14 @@ A simple predictive tool can help doctors and patients make better decisions, sa
 # The numbers of rows and columns:
 Rows: 4238
 Columns: 16
+## Dataset Information
+- **Name:** Heart Disease and Stroke Dataset
+- **Rows:** 4,238
+- **Columns:** 16
+- **Source:** (https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset?select=heart_disease.csv)
+- **Target Variable:** `HeartStroke` (yes/no)
+- **Features:** Includes age, gender, BMI, cholesterol, glucose, smoking status, blood pressure, and more.
+
 
 # Using df.info(), the types of each column can be find as follows: 
 
@@ -76,6 +84,19 @@ In this step, I did:
 - Fills missing numeric values with median (robust to outliers)
 - Fills missing categorical values with the most common category
 - Converts all string categories to lowercase for consistency
+
+# 4. Exploratory Data Analysis (EDA)
+- **Age:** Majority of participants are between 40–60 years old.
+- **BMI:** Most values fall between 20–30, indicating a tendency toward overweight status.
+- **Categorical Analysis:** Smokers and males appear more frequently in the positive heart disease/stroke class.
+- **Correlation:** Age, systolic BP, BMI, and cholesterol showed notable relationships with heart disease/stroke.
+
+# 5. Next Steps
+- Trying for more advanced models (e.g., Random Forest, XGBoost)
+- Performing hyperparameter tuning
+- Adding cross-validation
+- Improving feature selection and engineering
+
 
 
 
