@@ -54,6 +54,8 @@ The baseline Logistic Regression model achieved an accuracy of approximately 85.
 
 ![DistributionPlots_HistogramBMI_with_without_outlier](https://github.com/user-attachments/assets/a90a5a76-4e7d-4e23-a25a-b96e32a6043a)
 
+![image](https://github.com/user-attachments/assets/c73fa61e-0430-43b8-b185-f82cf977b1ad)
+
 ![BarPlot_SmokevsHeartStroke](https://github.com/user-attachments/assets/f526265b-8465-45e6-9ffa-c7f590003da0)
 
 ![BarPlot_GendervsHeartStroke](https://github.com/user-attachments/assets/a95cf6b0-d3ed-43c4-9ad5-49f3f580db4c)
