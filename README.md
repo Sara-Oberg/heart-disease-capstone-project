@@ -70,3 +70,9 @@ The baseline Logistic Regression model achieved an accuracy of approximately 85.
 - Apply techniques like SMOTE (Synthetic Minority Over-sampling) to balance the dataset.
 - Conduct hyperparameter tuning to optimize model performance.
 - Deploy the model in a simple app interface for practical health screening applications.
+
+
+   # Outline of Project
+
+  https://github.com/Sara-Oberg/heart-disease-capstone-project/blob/main/Heart_Disease_Capstone_Project_Sara_Obergassel_26April2025.ipynb
+  
