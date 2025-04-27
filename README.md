@@ -1,3 +1,23 @@
+![image](https://github.com/user-attachments/assets/274935f6-14d4-4fb2-b31a-03cedef8ece7)
+
+
+**Heart Disease and Stroke Prediction Using Machine Learning**
+
+**Author:** Sara Obergassel
+
+#### Executive Summary
+
+This project explores the use of machine learning to predict the risk of heart disease or stroke based on demographic and clinical health features. Using real-world medical data, the goal is to build a predictive model that can help identify individuals at higher risk and contribute to earlier interventions, improving health outcomes. Logistic Regression was used as the baseline model, achieving an accuracy of approximately 85.19%.
+
+#### Change of Project
+
+Originally, the proposed project focused on machine learning-based optimization of transistor sizing for analog circuit performance. However, due to the difficulty of obtaining a suitable dataset and the practical challenges of generating reliable LTspice simulation data within the project timeline, the project scope was changed.
+
+The new project focuses on heart disease and stroke prediction using real-world medical data. This topic is both impactful to public health and better aligned with available datasets, allowing for meaningful exploration of machine learning techniques in a healthcare context.
+
+The new project uses the "Heart Disease" dataset from Kaggle and aims to build a predictive model that can help identify individuals at higher risk of heart disease or stroke, potentially contributing to earlier intervention and prevention efforts.
+
+
 # Heart-Disease Capstone Project
 This project aims to explore and model health-related risk factors to predict whether an individual is likely to experience heart disease or stroke. The model is developed as part of a machine learning capstone project at UC Berkeley Haas School of Business, using real-world medical data.
 
@@ -8,13 +28,6 @@ Can we predict heart disease in people regarding their basic personal and health
 # Expected Data Source:
 The data will come from a dataset "https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset?select=heart_disease.csv" called heart_disease.csv, which includes basic personal and health information, provided as a CSV file.
 
-# Techniques:
-
-- Simple data analysis to understand the data
-- Creating useful features from the data
-- Using machine learning methods like Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting
-- Checking how well the model works using methods like cross-validation, confusion matrix, and ROC curve
-
 # Expected Results:
 I aim to create a reliable tool that can predict who might develop heart disease based on their basic personal and health details. This tool will show us which factors are most important for predicting heart disease, helping doctors and patients take action early.
 
@@ -22,81 +35,26 @@ I aim to create a reliable tool that can predict who might develop heart disease
 Heart disease is a major cause of death around the world. If we can predict heart disease early, we can help people make lifestyle changes or get medical treatment sooner. Without answering this question, people might not know they are at risk, missing the chance to prevent serious health issues. 
 A simple predictive tool can help doctors and patients make better decisions, saving lives and reducing healthcare costs by allowing earlier treatment and better personal care plans.
 
-# 2. The insights based on the dataset heart_disease.csv
+#### Methodology
 
-# The numbers of rows and columns:
-Rows: 4238
-Columns: 16
-## Dataset Information
-- **Rows:** 4,238
-- **Columns:** 16
-- **Source:** (https://www.kaggle.com/datasets/mirzahasnine/heart-disease-dataset?select=heart_disease.csv)
-- **Target Variable:** `HeartStroke` (yes/no)
-- **Features:** Includes age, gender, BMI, cholesterol, glucose, smoking status, blood pressure, and more.
+- Data cleaning (handling missing values, outlier analysis, feature engineering)
+- Exploratory Data Analysis (EDA) to understand distributions and relationships
+- Encoding of categorical variables and feature scaling
+- Baseline classification model using Logistic Regression
+- Model evaluation using accuracy, precision, recall, and confusion matrix
 
+#### Results
 
-# Using df.info(), the types of each column can be find as follows: 
-
-![info](https://github.com/user-attachments/assets/9655bb02-afb2-413b-b69c-39c0d478c386)
-
-
-# These columns contain missing values:
-| Column	    | Missing Values |
-| ---------   | -------------- |
-| education	  | 105 |
-| cigsPerDay	| 29 |
-| BPMeds	    | 53 |
-| totChol	    | 50 |
-| BMI		      | 19 |
-| heartRate	  | 1 |
-| glucose	    | 388 |
-
-# Basic statistics (mean, min, max) for numeric columns:
-
-| Feature	    | Mean	  | Min	  | Max |
-| ---------   | ------- | ------|---- |
-| age		      | 49.58	  | 32	  | 70 |
-| cigsPerDay	| 9.00	  | 0	    | 70 |
-| totChol	    | 236.72	| 107	  | 696 |
-| sysBP		    | 132.35	| 83.5	| 295 |
-| diaBP		    | 82.89	  | 48	  | 142.5 |
-| BMI		      | 25.80	  | 15.54	| 56.8 |
-| heartRate	  | 75.88	  | 44	  | 143 |
-| glucose	    | 81.97	  | 40	  | 394 |
-
-# There are no duplicates:
-Number of duplicate rows: 0
-
-# The numbers of categories of object-type columns
-
-| Column		      | Unique Categories |
-| -------------   | ----------------- |
-| Gender	        | 2 		(Male, Female) |
-| education		    | 4 (graduate, postgraduate, etc.) |
-| prevalentStroke	| 2 (yes, no) |
-| Heart_ stroke		| 2 (yes, No) |
-
-# 3. Data Cleaning.
-
-In this step, I did:
-- Standardizes column names
-- Fills missing numeric values with median (robust to outliers)
-- Fills missing categorical values with the most common category
-- Converts all string categories to lowercase for consistency to avoid for example 'No' vs 'no' issues
-
-# 4. Exploratory Data Analysis (EDA)
+The baseline Logistic Regression model achieved an accuracy of approximately 85.19%. Although overall accuracy was high, the model struggled to correctly identify positive heart disease/stroke cases, highlighting the impact of class imbalance. Feature scaling slightly improved the model's performance.
+# Exploratory Data Analysis (EDA)
 - **Age:** Majority of participants are between 40–60 years old.
 - **BMI:** Most values fall between 20–30, indicating a tendency toward overweight status.
 - **Categorical Analysis:** Smokers and males appear more frequently in the positive heart disease/stroke class.
 - **Correlation:** Age, systolic BP, BMI, and cholesterol showed notable relationships with heart disease/stroke.
 
-# 5. Next Steps
-- Trying for more advanced models (e.g., Random Forest, XGBoost)
-- Performing hyperparameter tuning
-- Adding cross-validation
-- Improving feature selection and engineering
+- #### Next Steps
 
-
-
-
-
+- Explore advanced models like Random Forest, XGBoost, and Gradient Boosting to improve recall.
+- Apply techniques like SMOTE (Synthetic Minority Over-sampling) to balance the dataset.
+- Conduct hyperparameter tuning to optimize model performance.
+- Deploy the model in a simple app interface for practical health screening applications.
