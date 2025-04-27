@@ -1,4 +1,4 @@
-#Heart Disease and Stroke Prediction Using Machine Learning
+# Heart Disease and Stroke Prediction Using Machine Learning
 
 **Author:** Sara Obergassel
 
