@@ -42,12 +42,25 @@ A simple predictive tool can help doctors and patients make better decisions, sa
 
 # Results
 
-The baseline Logistic Regression model achieved an accuracy of approximately 85.19%. Although overall accuracy was high, the model struggled to correctly identify positive heart disease/stroke cases, highlighting the impact of class imbalance. Feature scaling slightly improved the model's performance.
-## Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - **Age:** Majority of participants are between 40–60 years old.
 - **BMI:** Most values fall between 20–30, indicating a tendency toward overweight status.
 - **Categorical Analysis:** Smokers and males appear more frequently in the positive heart disease/stroke class.
 - **Correlation:** Age, systolic BP, BMI, and cholesterol showed notable relationships with heart disease/stroke.
+
+The baseline Logistic Regression model achieved an accuracy of approximately 85.19%. Although overall accuracy was high, the model struggled to correctly identify positive heart disease/stroke cases, highlighting the impact of class imbalance. Feature scaling slightly improved the model's performance.
+
+![DistributionPlots_HistogramAge_color](https://github.com/user-attachments/assets/a600ccbb-e7c8-4e9b-a297-ae520e481ba5)
+
+![DistributionPlots_HistogramBMI_with_without_outlier](https://github.com/user-attachments/assets/a90a5a76-4e7d-4e23-a25a-b96e32a6043a)
+
+![BarPlot_SmokevsHeartStroke](https://github.com/user-attachments/assets/f526265b-8465-45e6-9ffa-c7f590003da0)
+
+![CorrelationHeatmap](https://github.com/user-attachments/assets/e59dc24c-fe4a-41a6-a6f0-7432cf3bbbad)
+
+![Confusion_Matrix2](https://github.com/user-attachments/assets/7bd8e843-d59e-4176-b6d7-131e3b89028c)
+
+
 
 # Next Steps
 
