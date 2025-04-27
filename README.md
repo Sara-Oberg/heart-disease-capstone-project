@@ -81,5 +81,7 @@ The baseline Logistic Regression model achieved an accuracy of approximately 85.
   
   https://github.com/Sara-Oberg/heart-disease-capstone-project/blob/main/docs/Heart_Project_Capstone_Project_Sara_Obergassel_26April2025.docx
 
+  https://github.com/Sara-Oberg/heart-disease-capstone-project/tree/main/data
+
   
   
